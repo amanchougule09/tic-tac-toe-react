@@ -1,16 +1,139 @@
-# React + Vite
+# 🎮 Tic Tac Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and interactive **Tic Tac Toe** game built with **React** and **Vite**. The application features a clean UI, move history, winner detection with a strike-through line, draw detection, and the ability to restart the game.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- ✅ Two-player Tic Tac Toe game
+- ✅ Winner detection
+- ✅ Red strike-through line on winning combination
+- ✅ Draw detection
+- ✅ Move history (Time Travel)
+- ✅ Restart game functionality
+- ✅ Responsive and modern UI
+- ✅ Built using React Hooks (`useState`)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **React.js**
+- **Vite**
+- **JavaScript (ES6+)**
+- **CSS3**
+
+---
+
+## 📸 Screenshots
+
+### Game Board
+
+```md
+![Game Screenshot](./src/assets/FirstSS.png)
+```
+```md
+![Game Screenshot](./src/assets/SecondSS.png)
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+tic-tac-toe-react/
+│
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── assets/
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── .gitignore
+└── README.md
+```
+
+---
+
+## ⚙️ Installation and Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/amanchougule09/tic-tac-toe-react.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd tic-tac-toe-react
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the Development Server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 🏗️ Build for Production
+
+```bash
+npm run build
+```
+
+To preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🎯 Future Enhancements
+
+- Single Player Mode (AI)
+- Difficulty Levels
+- Sound Effects
+- Scoreboard
+- Dark/Light Theme Toggle
+- Online Multiplayer Support
+
+---
+
+## 👨‍💻 Author
+
+**Aman Chougule**
+
+- GitHub: https://github.com/amanchougule09
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, please consider giving it a **⭐ Star** on GitHub.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
