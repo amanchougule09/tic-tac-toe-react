@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: #1e293b;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-size: 40px;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.board {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 110px);
+  gap: 10px;
+}
+
+.square {
+  width: 110px;
+  height: 110px;
+  border: none;
+  border-radius: 15px;
+  background: #334155;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.square:hover {
+  background: #475569;
+}
+
+.winning-square {
+  background: #16a34a;
+}
+
+.restart-btn {
+  margin-top: 30px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.restart-btn:hover {
+  background: #1d4ed8;
+}
+
+/* Winning Line */
+
+.winning-line {
+  position: absolute;
+  background: red;
+  height: 6px;
+  border-radius: 20px;
+  width: 350px;
+}
+
+/* Rows */
+
+.line-0 {
+  top: 55px;
+  left: 0;
+}
+
+.line-1 {
+  top: 175px;
+  left: 0;
+}
+
+.line-2 {
+  top: 295px;
+  left: 0;
+}
+
+/* Columns */
+
+.line-3 {
+  width: 6px;
+  height: 350px;
+  top: 0;
+  left: 55px;
+}
+
+.line-4 {
+  width: 6px;
+  height: 350px;
+  top: 0;
+  left: 175px;
+}
+
+.line-5 {
+  width: 6px;
+  height: 350px;
+  top: 0;
+  left: 295px;
+}
+
+/* Diagonals */
+
+.line-6 {
+  width: 470px;
+  top: 175px;
+  left: -60px;
+  transform: rotate(45deg);
+}
+
+.line-7 {
+  width: 470px;
+  top: 175px;
+  left: -60px;
+  transform: rotate(-45deg);
+}
