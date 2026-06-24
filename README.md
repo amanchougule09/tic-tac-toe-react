@@ -29,11 +29,12 @@ A modern and interactive **Tic Tac Toe** game built with **React** and **Vite**.
 ## 📸 Screenshots
 
 ### Game Board
+---
 
 ![before](Output/before.png)
 ```
-```md
-![After](Output/After.png)
+```
+![After](src/assets/SecondSS.png)
 ```
 
 ---
